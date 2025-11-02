@@ -1,0 +1,13 @@
+CPCB Guidelines (India):
+- AQI up to 50: Good, minimal impact.
+- AQI 51–100: Satisfactory, minor breathing discomfort to sensitive people.
+- AQI 101–200: Moderate to Poor, breathing discomfort to people with lungs/heart disease, children, elderly.
+- AQI 201–300: Very Poor, may cause respiratory illness.
+- AQI 301–400: Severe, serious health impacts.
+- AQI 401–500: Hazardous, may trigger health emergencies.
+
+Recommendations:
+- Limit outdoor exposure if AQI >150.
+- Avoid early morning exercise during high pollution.
+- Use masks and purifiers.
+- Sensitive groups should remain indoors during severe levels.

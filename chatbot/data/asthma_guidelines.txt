@@ -1,0 +1,10 @@
+# USER_TYPE: Asthma
+
+Air Pollution Advice: Asthma Patients
+
+- Poor AQI can trigger bronchial inflammation.
+- Always carry a rescue inhaler.
+- Avoid early morning walks (pollutants are concentrated).
+- Keep indoor humidity between 30–50%.
+- Use nasal saline rinses after outdoor exposure.
+- If AQI > 200, restrict outdoor time strictly.
