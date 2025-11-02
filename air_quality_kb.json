@@ -1,0 +1,610 @@
+[
+  {
+    "id": "1",
+    "topic": "Air Quality Basics",
+    "subtopic": "Definition",
+    "content": "Air quality refers to how clean or polluted the air around us is. It is determined by the concentration of pollutants in the air, such as particulate matter, nitrogen dioxide, sulfur dioxide, carbon monoxide, and ozone.",
+    "tags": [
+      "basics",
+      "definition"
+    ]
+  },
+  {
+    "id": "2",
+    "topic": "Air Quality Basics",
+    "subtopic": "Importance",
+    "content": "Good air quality is essential for human health, the environment, and climate. Poor air quality can cause diseases, reduce life expectancy, damage crops, and contribute to climate change.",
+    "tags": [
+      "basics",
+      "importance"
+    ]
+  },
+  {
+    "id": "4",
+    "topic": "AQI",
+    "subtopic": "India CPCB AQI Scale",
+    "content": "CPCB AQI categories: 0-50 Good, 51-100 Satisfactory, 101-200 Moderate, 201-300 Poor, 301-400 Very Poor, 401-500 Severe.",
+    "tags": [
+      "aqi",
+      "india",
+      "scale"
+    ]
+  },
+  {
+    "id": "5",
+    "topic": "AQI",
+    "subtopic": "US EPA AQI Scale",
+    "content": "US EPA AQI categories: 0-50 Good, 51-100 Moderate, 101-150 Unhealthy for Sensitive Groups, 151-200 Unhealthy, 201-300 Very Unhealthy, 301-500 Hazardous.",
+    "tags": [
+      "aqi",
+      "usa",
+      "scale"
+    ]
+  },
+  {
+    "id": "6",
+    "topic": "Pollutants",
+    "subtopic": "PM2.5 Overview",
+    "content": "PM2.5 are fine particles smaller than 2.5 micrometers. They can penetrate deep into the lungs and bloodstream, causing respiratory and cardiovascular diseases.",
+    "tags": [
+      "pm2.5",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "7",
+    "topic": "Pollutants",
+    "subtopic": "PM10 Overview",
+    "content": "PM10 are coarse particles smaller than 10 micrometers. They cause coughing, throat irritation, and worsen asthma when inhaled.",
+    "tags": [
+      "pm10",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "8",
+    "topic": "Pollutants",
+    "subtopic": "Nitrogen Dioxide (NO2)",
+    "content": "NO2 is a reddish-brown gas mainly from vehicle exhaust and industrial activities. It irritates lungs, reduces lung function, and increases asthma attacks.",
+    "tags": [
+      "no2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "9",
+    "topic": "Pollutants",
+    "subtopic": "Sulfur Dioxide (SO2)",
+    "content": "SO2 is released from coal burning and refineries. It causes coughing, throat irritation, and triggers asthma and bronchitis.",
+    "tags": [
+      "so2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "10",
+    "topic": "Pollutants",
+    "subtopic": "Carbon Monoxide (CO)",
+    "content": "CO is a colorless, odorless gas from incomplete combustion. It reduces oxygen supply in the body, causing headaches, dizziness, and even death at high levels.",
+    "tags": [
+      "co",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "11",
+    "topic": "Pollutants",
+    "subtopic": "Ozone (O3)",
+    "content": "Ground-level ozone forms when NOx and VOCs react in sunlight. It causes chest pain, coughing, shortness of breath, and lung damage.",
+    "tags": [
+      "ozone",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "12",
+    "topic": "Health Impacts",
+    "subtopic": "Children",
+    "content": "Children are especially vulnerable to air pollution as their lungs are still developing. Exposure can reduce lung growth, trigger asthma, and cause long-term respiratory problems.",
+    "tags": [
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "13",
+    "topic": "Health Impacts",
+    "subtopic": "Elderly",
+    "content": "Elderly individuals are at higher risk because of weaker immune systems and existing health conditions. Pollution exposure increases risk of heart attacks, strokes, and chronic lung diseases.",
+    "tags": [
+      "health",
+      "elderly"
+    ]
+  },
+  {
+    "id": "14",
+    "topic": "Health Impacts",
+    "subtopic": "Pregnant Women",
+    "content": "Air pollution exposure during pregnancy can lead to low birth weight, premature birth, and developmental problems in children.",
+    "tags": [
+      "health",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "15",
+    "topic": "Pollution Sources",
+    "subtopic": "Vehicles",
+    "content": "Vehicles emit NO2, CO, and particulate matter. Traffic congestion in cities is a major source of poor air quality.",
+    "tags": [
+      "sources",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "16",
+    "topic": "Pollution Sources",
+    "subtopic": "Industry",
+    "content": "Factories, power plants, and refineries emit SO2, NO2, and particulate matter, contributing significantly to urban pollution.",
+    "tags": [
+      "sources",
+      "industry"
+    ]
+  },
+  {
+    "id": "17",
+    "topic": "Pollution Sources",
+    "subtopic": "Biomass Burning",
+    "content": "Burning of crop residue, wood, and waste releases large amounts of PM2.5, CO, and VOCs, particularly in rural and agricultural regions.",
+    "tags": [
+      "sources",
+      "biomass"
+    ]
+  },
+  {
+    "id": "18",
+    "topic": "Pollution Sources",
+    "subtopic": "Natural",
+    "content": "Natural sources of pollution include dust storms, volcanic activity, and wildfires, which can raise particulate levels significantly.",
+    "tags": [
+      "sources",
+      "natural"
+    ]
+  },
+  {
+    "id": "19",
+    "topic": "Safety Recommendations",
+    "subtopic": "Good AQI",
+    "content": "When AQI is 0-50, the air is safe. No precautions are needed.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "20",
+    "topic": "Safety Recommendations",
+    "subtopic": "Moderate AQI",
+    "content": "When AQI is 51-100, the air is satisfactory, but unusually sensitive people should limit outdoor exertion.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "21",
+    "topic": "Safety Recommendations",
+    "subtopic": "Unhealthy AQI",
+    "content": "When AQI is above 150, everyone should limit outdoor activities. Children, elderly, and patients with lung or heart disease should stay indoors.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "22",
+    "topic": "Safety Recommendations",
+    "subtopic": "Masks",
+    "content": "N95 or N99 masks are effective against fine particles like PM2.5. Cloth masks and surgical masks do not provide effective protection against air pollution.",
+    "tags": [
+      "safety",
+      "masks"
+    ]
+  },
+  {
+    "id": "23",
+    "topic": "Safety Recommendations",
+    "subtopic": "Indoors",
+    "content": "Using air purifiers, sealing windows, and ventilating during low-pollution hours can reduce indoor pollution exposure.",
+    "tags": [
+      "safety",
+      "indoor"
+    ]
+  },
+  {
+    "id": "24",
+    "topic": "Regulations",
+    "subtopic": "NAAQS India",
+    "content": "India’s National Ambient Air Quality Standards (NAAQS) specify limits: PM2.5 annual 40 µg/m³, PM10 annual 60 µg/m³, NO2 annual 40 µg/m³, SO2 annual 50 µg/m³.",
+    "tags": [
+      "regulation",
+      "india",
+      "naaqs"
+    ]
+  },
+  {
+    "id": "25",
+    "topic": "Regulations",
+    "subtopic": "US EPA Standards",
+    "content": "US EPA standards: PM2.5 annual 12 µg/m³, PM10 daily 150 µg/m³, NO2 annual 53 ppb, SO2 75 ppb (1-hour).",
+    "tags": [
+      "regulation",
+      "usa",
+      "epa"
+    ]
+  },
+  {
+    "id": "26",
+    "topic": "Regulations",
+    "subtopic": "WHO Standards",
+    "content": "WHO recommends the strictest standards: PM2.5 annual 5 µg/m³, PM10 annual 15 µg/m³, NO2 annual 10 µg/m³.",
+    "tags": [
+      "regulation",
+      "who"
+    ]
+  },
+  {
+    "id": "27",
+    "topic": "FAQs",
+    "subtopic": "What is PM2.5?",
+    "content": "PM2.5 refers to fine particulate matter smaller than 2.5 micrometers. They are dangerous because they penetrate deep into lungs and enter the bloodstream.",
+    "tags": [
+      "faq",
+      "pm2.5"
+    ]
+  },
+  {
+    "id": "28",
+    "topic": "FAQs",
+    "subtopic": "Why is AQI important?",
+    "content": "AQI helps people understand daily air pollution levels and take precautions to protect health. It simplifies complex pollution data into a single number.",
+    "tags": [
+      "faq",
+      "aqi"
+    ]
+  },
+  {
+    "id": "29",
+    "topic": "FAQs",
+    "subtopic": "How does air pollution affect health?",
+    "content": "Air pollution causes asthma, heart disease, lung cancer, strokes, and premature death. It especially affects children, elderly, and people with pre-existing conditions.",
+    "tags": [
+      "faq",
+      "health"
+    ]
+  },
+  {
+    "id": "29",
+    "topic": "Pollutants",
+    "subtopic": "PM2.5 Overview (Extended)",
+    "content": "PM2.5 are fine particles smaller than 2.5 micrometers. They can penetrate deep into the lungs and bloodstream, causing respiratory and cardiovascular diseases. This is an extended detail for deeper context.",
+    "tags": [
+      "pm2.5",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "30",
+    "topic": "Pollutants",
+    "subtopic": "PM10 Overview (Extended)",
+    "content": "PM10 are coarse particles smaller than 10 micrometers. They cause coughing, throat irritation, and worsen asthma when inhaled. This is an extended detail for deeper context.",
+    "tags": [
+      "pm10",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "31",
+    "topic": "Pollutants",
+    "subtopic": "Nitrogen Dioxide (NO2) (Extended)",
+    "content": "NO2 is a reddish-brown gas mainly from vehicle exhaust and industrial activities. It irritates lungs, reduces lung function, and increases asthma attacks. This is an extended detail for deeper context.",
+    "tags": [
+      "no2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "32",
+    "topic": "Pollutants",
+    "subtopic": "Sulfur Dioxide (SO2) (Extended)",
+    "content": "SO2 is released from coal burning and refineries. It causes coughing, throat irritation, and triggers asthma and bronchitis. This is an extended detail for deeper context.",
+    "tags": [
+      "so2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "33",
+    "topic": "Pollutants",
+    "subtopic": "Carbon Monoxide (CO) (Extended)",
+    "content": "CO is a colorless, odorless gas from incomplete combustion. It reduces oxygen supply in the body, causing headaches, dizziness, and even death at high levels. This is an extended detail for deeper context.",
+    "tags": [
+      "co",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "34",
+    "topic": "Pollutants",
+    "subtopic": "Ozone (O3) (Extended)",
+    "content": "Ground-level ozone forms when NOx and VOCs react in sunlight. It causes chest pain, coughing, shortness of breath, and lung damage. This is an extended detail for deeper context.",
+    "tags": [
+      "ozone",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "35",
+    "topic": "Health Impacts",
+    "subtopic": "Children (Extended)",
+    "content": "Children are especially vulnerable to air pollution as their lungs are still developing. Exposure can reduce lung growth, trigger asthma, and cause long-term respiratory problems. This is an extended detail for deeper context.",
+    "tags": [
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "36",
+    "topic": "Health Impacts",
+    "subtopic": "Elderly (Extended)",
+    "content": "Elderly individuals are at higher risk because of weaker immune systems and existing health conditions. Pollution exposure increases risk of heart attacks, strokes, and chronic lung diseases. This is an extended detail for deeper context.",
+    "tags": [
+      "health",
+      "elderly"
+    ]
+  },
+  {
+    "id": "37",
+    "topic": "Health Impacts",
+    "subtopic": "Pregnant Women (Extended)",
+    "content": "Air pollution exposure during pregnancy can lead to low birth weight, premature birth, and developmental problems in children. This is an extended detail for deeper context.",
+    "tags": [
+      "health",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "38",
+    "topic": "Pollution Sources",
+    "subtopic": "Vehicles (Extended)",
+    "content": "Vehicles emit NO2, CO, and particulate matter. Traffic congestion in cities is a major source of poor air quality. This is an extended detail for deeper context.",
+    "tags": [
+      "sources",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "39",
+    "topic": "Pollution Sources",
+    "subtopic": "Industry (Extended)",
+    "content": "Factories, power plants, and refineries emit SO2, NO2, and particulate matter, contributing significantly to urban pollution. This is an extended detail for deeper context.",
+    "tags": [
+      "sources",
+      "industry"
+    ]
+  },
+  {
+    "id": "40",
+    "topic": "Pollution Sources",
+    "subtopic": "Biomass Burning (Extended)",
+    "content": "Burning of crop residue, wood, and waste releases large amounts of PM2.5, CO, and VOCs, particularly in rural and agricultural regions. This is an extended detail for deeper context.",
+    "tags": [
+      "sources",
+      "biomass"
+    ]
+  },
+  {
+    "id": "41",
+    "topic": "Pollution Sources",
+    "subtopic": "Natural (Extended)",
+    "content": "Natural sources of pollution include dust storms, volcanic activity, and wildfires, which can raise particulate levels significantly. This is an extended detail for deeper context.",
+    "tags": [
+      "sources",
+      "natural"
+    ]
+  },
+  {
+    "id": "42",
+    "topic": "Safety Recommendations",
+    "subtopic": "Good AQI (Extended)",
+    "content": "When AQI is 0-50, the air is safe. No precautions are needed. This is an extended detail for deeper context.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "43",
+    "topic": "Safety Recommendations",
+    "subtopic": "Moderate AQI (Extended)",
+    "content": "When AQI is 51-100, the air is satisfactory, but unusually sensitive people should limit outdoor exertion. This is an extended detail for deeper context.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "44",
+    "topic": "Safety Recommendations",
+    "subtopic": "Unhealthy AQI (Extended)",
+    "content": "When AQI is above 150, everyone should limit outdoor activities. Children, elderly, and patients with lung or heart disease should stay indoors. This is an extended detail for deeper context.",
+    "tags": [
+      "safety",
+      "aqi"
+    ]
+  },
+  {
+    "id": "45",
+    "topic": "Safety Recommendations",
+    "subtopic": "Masks (Extended)",
+    "content": "N95 or N99 masks are effective against fine particles like PM2.5. Cloth masks and surgical masks do not provide effective protection against air pollution. This is an extended detail for deeper context.",
+    "tags": [
+      "safety",
+      "masks"
+    ]
+  },
+  {
+    "id": "46",
+    "topic": "Safety Recommendations",
+    "subtopic": "Indoors (Extended)",
+    "content": "Using air purifiers, sealing windows, and ventilating during low-pollution hours can reduce indoor pollution exposure. This is an extended detail for deeper context.",
+    "tags": [
+      "safety",
+      "indoor"
+    ]
+  },
+  {
+    "id": "47",
+    "topic": "Regulations",
+    "subtopic": "NAAQS India (Extended)",
+    "content": "India’s National Ambient Air Quality Standards (NAAQS) specify limits: PM2.5 annual 40 µg/m³, PM10 annual 60 µg/m³, NO2 annual 40 µg/m³, SO2 annual 50 µg/m³. This is an extended detail for deeper context.",
+    "tags": [
+      "regulation",
+      "india",
+      "naaqs"
+    ]
+  },
+  {
+    "id": "48",
+    "topic": "Regulations",
+    "subtopic": "US EPA Standards (Extended)",
+    "content": "US EPA standards: PM2.5 annual 12 µg/m³, PM10 daily 150 µg/m³, NO2 annual 53 ppb, SO2 75 ppb (1-hour). This is an extended detail for deeper context.",
+    "tags": [
+      "regulation",
+      "usa",
+      "epa"
+    ]
+  },
+  {
+    "id": "49",
+    "topic": "Regulations",
+    "subtopic": "WHO Standards (Extended)",
+    "content": "WHO recommends the strictest standards: PM2.5 annual 5 µg/m³, PM10 annual 15 µg/m³, NO2 annual 10 µg/m³. This is an extended detail for deeper context.",
+    "tags": [
+      "regulation",
+      "who"
+    ]
+  },
+  {
+    "id": "50",
+    "topic": "FAQs",
+    "subtopic": "What is PM2.5? (Extended)",
+    "content": "PM2.5 refers to fine particulate matter smaller than 2.5 micrometers. They are dangerous because they penetrate deep into lungs and enter the bloodstream. This is an extended detail for deeper context.",
+    "tags": [
+      "faq",
+      "pm2.5"
+    ]
+  },
+  {
+    "id": "51",
+    "topic": "FAQs",
+    "subtopic": "Why is AQI important? (Extended)",
+    "content": "AQI helps people understand daily air pollution levels and take precautions to protect health. It simplifies complex pollution data into a single number. This is an extended detail for deeper context.",
+    "tags": [
+      "faq",
+      "aqi"
+    ]
+  },
+  {
+    "id": "52",
+    "topic": "FAQs",
+    "subtopic": "How does air pollution affect health? (Extended)",
+    "content": "Air pollution causes asthma, heart disease, lung cancer, strokes, and premature death. It especially affects children, elderly, and people with pre-existing conditions. This is an extended detail for deeper context.",
+    "tags": [
+      "faq",
+      "health"
+    ]
+  },
+  {
+    "id": "53",
+    "topic": "AQI",
+    "subtopic": "India CPCB AQI Scale (Extended)",
+    "content": "CPCB AQI categories: 0-50 Good, 51-100 Satisfactory, 101-200 Moderate, 201-300 Poor, 301-400 Very Poor, 401-500 Severe. This is an extended detail for deeper context.",
+    "tags": [
+      "aqi",
+      "india",
+      "scale"
+    ]
+  },
+  {
+    "id": "54",
+    "topic": "AQI",
+    "subtopic": "US EPA AQI Scale (Extended)",
+    "content": "US EPA AQI categories: 0-50 Good, 51-100 Moderate, 101-150 Unhealthy for Sensitive Groups, 151-200 Unhealthy, 201-300 Very Unhealthy, 301-500 Hazardous. This is an extended detail for deeper context.",
+    "tags": [
+      "aqi",
+      "usa",
+      "scale"
+    ]
+  },
+  {
+    "id": "55",
+    "topic": "Pollutants",
+    "subtopic": "PM2.5 Overview (Extended)",
+    "content": "PM2.5 are fine particles smaller than 2.5 micrometers. They can penetrate deep into the lungs and bloodstream, causing respiratory and cardiovascular diseases. This is an extended detail for deeper context.",
+    "tags": [
+      "pm2.5",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "56",
+    "topic": "Pollutants",
+    "subtopic": "PM10 Overview (Extended)",
+    "content": "PM10 are coarse particles smaller than 10 micrometers. They cause coughing, throat irritation, and worsen asthma when inhaled. This is an extended detail for deeper context.",
+    "tags": [
+      "pm10",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "57",
+    "topic": "Pollutants",
+    "subtopic": "Nitrogen Dioxide (NO2) (Extended)",
+    "content": "NO2 is a reddish-brown gas mainly from vehicle exhaust and industrial activities. It irritates lungs, reduces lung function, and increases asthma attacks. This is an extended detail for deeper context.",
+    "tags": [
+      "no2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "58",
+    "topic": "Pollutants",
+    "subtopic": "Sulfur Dioxide (SO2) (Extended)",
+    "content": "SO2 is released from coal burning and refineries. It causes coughing, throat irritation, and triggers asthma and bronchitis. This is an extended detail for deeper context.",
+    "tags": [
+      "so2",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "59",
+    "topic": "Pollutants",
+    "subtopic": "Carbon Monoxide (CO) (Extended)",
+    "content": "CO is a colorless, odorless gas from incomplete combustion. It reduces oxygen supply in the body, causing headaches, dizziness, and even death at high levels. This is an extended detail for deeper context.",
+    "tags": [
+      "co",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "60",
+    "topic": "Pollutants",
+    "subtopic": "Ozone (O3) (Extended)",
+    "content": "Ground-level ozone forms when NOx and VOCs react in sunlight. It causes chest pain, coughing, shortness of breath, and lung damage. This is an extended detail for deeper context.",
+    "tags": [
+      "ozone",
+      "pollutants"
+    ]
+  }
+]

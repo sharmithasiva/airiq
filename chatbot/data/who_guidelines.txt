@@ -1,0 +1,8 @@
+WHO Air Quality Guidelines (AQI Health Impacts):
+- AQI 0–50: Good. No risk to health.
+- AQI 51–100: Moderate. Sensitive individuals should limit intense outdoor activities.
+- AQI 101–150: Unhealthy for sensitive groups (asthma, children, elderly).
+- AQI 151–200: Unhealthy. Avoid prolonged outdoor exertion.
+- AQI 201–300: Very Unhealthy. Everyone should limit outdoor activity.
+- AQI 301–500: Hazardous. Stay indoors; close windows; use air filtration.
+General Advice: Avoid heavy outdoor exercise when air pollution is high. Drink water and monitor local alerts.

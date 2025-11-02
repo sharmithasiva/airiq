@@ -1,0 +1,34 @@
+# Python & Virtual Env
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Ollama & Models
+~/.ollama/
+*.gguf
+*.bin
+*.pth
+
+# FAISS & embeddings
+*.faiss
+*.pkl
+
+*.xlsx
+
+# Large cache folders
+.cache/
+data/cache/
+node_modules/
+
+# Streamlit
+.streamlit/secrets.toml
+
+models/PM2_5_model.joblib
+models/PM10_model.joblib
+models/NO2_model.joblib
+models/SO2_model.joblib
+models/CO_model.joblib
+models/O3_model.joblib
+models/AQI_model.joblib
