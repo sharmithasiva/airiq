@@ -10,7 +10,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import joblib
 import numpy as np
-from chatbot.chatbot import chatbot_response  # keep your chatbot.py for logic
 import plotly.graph_objects as go
 from huggingface_hub import hf_hub_download
 
@@ -467,82 +466,3 @@ if 'forecast_df' in locals() and forecast_df is not None:
     """,
     unsafe_allow_html=True
 )
-
-# -----------------------------
-# CHATBOT SECTION
-# -----------------------------
-# -----------------------------
-# CHATBOT SECTION (IMPROVED)
-# -----------------------------
-st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<h2>💬 Chatbot Assistant</h2>", unsafe_allow_html=True)
-st.write("Ask any question about air quality or health safety. The bot tailors responses for different user types (Asthma Patient, Elderly, Children, General).")
-
-# ---------- Chat UI Styling ----------
-st.markdown("""
-<style>
-.chat-container {
-    background: rgba(0,0,0,0.05);
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 20px;
-}
-.user-msg {
-    background: #1e1e1e;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 10px;
-    margin: 5px 0;
-}
-.bot-msg {
-    background: #0f5132;
-    color: #d1e7dd;
-    padding: 10px 15px;
-    border-radius: 10px;
-    margin: 5px 0;
-}
-</style>
-""", unsafe_allow_html=True)
-
-# ---------- Session State ----------
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
-
-# ---------- User Input Area ----------
-st.markdown("#### Start a Conversation")
-
-col1, col2 = st.columns([3, 1])
-with col1:
-    user_query = st.text_input("Type your question here:")
-with col2:
-    user_type = st.selectbox("User Type", ["Asthma Patient", "Elderly", "Children", "General"])
-
-send_button = st.button("Send", use_container_width=True)
-
-# ---------- Chatbot Logic ----------
-if send_button and user_query.strip():
-    with st.spinner("Generating response..."):
-        try:
-            response = chatbot_response(
-                user_query=user_query,
-                city=st.session_state.get("selected_city", "Unknown"),
-                aqi_value=st.session_state.get("aqi_value", "N/A"),
-                category=st.session_state.get("aqi_category", "N/A"),
-                message=st.session_state.get("aqi_message", ""),
-                user_type=user_type
-            )
-        except Exception as e:
-            response = f"⚠️ Error: {e}"
-
-    st.session_state.chat_history.append({"sender": "user", "text": user_query})
-    st.session_state.chat_history.append({"sender": "bot", "text": response})
-
-# ---------- Display Chat ----------
-if st.session_state.chat_history:
-    st.markdown('<div class="chat-container">', unsafe_allow_html=True)
-    for msg in st.session_state.chat_history:
-        if msg["sender"] == "user":
-            st.markdown(f"<div class='user-msg'>👤 {msg['text']}</div>", unsafe_allow_html=True)
-        else:
-            st.markdown(f"<div class='bot-msg'>🤖 {msg['text']}</div>", unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
